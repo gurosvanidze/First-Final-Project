@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-box {
+  background: #011a41;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  padding: 30px;
+}
+.footer-office {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-office h1 {
+  width: 259px;
+  height: 31.75px;
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #ffffff;
+}
+.footer-address {
+  display: flex;
+  gap: 4px;
+}
+.footer-address p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  width: 185px;
+  height: 24px;
+}
+.footer-phone {
+  display: flex;
+  gap: 4px;
+}
+.footer-phone p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  width: 122.8px;
+  height: 24px;
+}
+.footer-email {
+  display: flex;
+  gap: 4px;
+}
+.footer-email p {
+  width: 140px;
+  height: 24px;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer-services {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer-services h1 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.footer-catalogue {
+  display: flex;
+  gap: 4px;
+}
+.footer-catalogue p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.newsletter {
+  width: 262px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 30px;
+}
+.newsletter h1 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.newsletter p {
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}
+.newsletter-mail {
+  width: 222px;
+  height: 44px;
+  border-radius: 5px;
+}
+.footer-sign {
+  width: 73px;
+  height: 37px;
+  border-radius: 5px;
+  background-color: #355efc;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer-sign p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 23px 73px;
+}
+.right h1 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}

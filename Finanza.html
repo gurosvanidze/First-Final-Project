@@ -11,6 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./Css Folder/Header.css" />
+    <link rel="stylesheet" href="./Css Folder/Css Animation/animation.css" />
+    <link rel="stylesheet" href="./Css Folder/Main.css" />
+    <link rel="stylesheet" href="./Css Folder/tab-content.css" />
+    <link rel="stylesheet" href="Css Folder/center-content.css" />
+    <link rel="stylesheet" href="./Css Folder/request.css" />
+    <link rel="stylesheet" href="./Css Folder/footer.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -19,21 +25,21 @@
           <div class="top-shape">
             <div class="component">
               <div class="location">
-                <img src="./Icons/Vector.svg" alt="vector icon" />
+                <img src="./Icons/Header-icons/Vector.svg" alt="vector icon" />
                 <p>123 Street, New York, USA</p>
               </div>
               <div class="service-time">
-                <img src="./Icons/clock.svg" alt="clock" />
+                <img src="./Icons/Header-icons/clock.svg" alt="clock" />
                 <p>9.00 am - 9.00 pm</p>
               </div>
             </div>
             <div class="info-component">
               <div class="mail">
-                <img src="./Icons/icon-email.svg" alt="email" />
+                <img src="./Icons/Header-icons/icon-email.svg" alt="email" />
                 <a href="#">info@example.com</a>
               </div>
               <div class="phone">
-                <img src="./Icons/phone-icon.svg" alt="phone" />
+                <img src="./Icons/Header-icons/phone-icon.svg" alt="phone" />
                 <div class="number">
                   <p>+012 345 6789</p>
                 </div>
@@ -42,23 +48,543 @@
           </div>
         </header>
         <nav>
-            <h1 class="logo">finanza</h1>
-            <div class="menu">
-                <ul class="nav-manu">
-                    <li>home</li>
-                    <li>about</li>
-                    <li>services</li>
-                    <li>pages</li>
-                    <li>contact</li>
-                </ul>
-                <div class="social">
-                    <a href="facebook.com" target="_blank"><img src="" alt=""></a>
-                    <a href="twitter.com" target="_blank"> <img src="" alt=""></a>
-                    <a href="instagram.com" target="_blank"><img src="" alt=""></a>
-                </div>
+          <h1 class="logo">finanza</h1>
+          <div class="menu">
+            <ul class="nav-menu">
+              <li>home</li>
+              <li>about</li>
+              <li>services</li>
+              <li>
+                pages
+                <img
+                  src="./Icons/navigation-icons/pages-down.svg"
+                  alt="vector"
+                />
+              </li>
+              <li>contact</li>
+            </ul>
+            <div class="social">
+              <a href="https://www.facebook.com" target="_blank"
+                ><img
+                  src="./Icons/navigation-icons/facebook.svg"
+                  alt="facebook logo"
+              /></a>
+              <a href="https://twitter.com" target="_blank">
+                <img
+                  src="./Icons/navigation-icons/twitter.svg"
+                  alt="twitter logo"
+              /></a>
+              <a href="https://linkedin.com" target="_blank"
+                ><img
+                  src="./Icons/navigation-icons/linkedin.svg"
+                  alt="linkedin logo"
+              /></a>
             </div>
+          </div>
         </nav>
+        <main id="main-container">
+          <div class="main">
+            <div class="slider-left">
+              <img src="./Icons/slider-icons/slider-left.svg" alt="click" />
+            </div>
+            <div class="main-text">
+              <div class="welcome-text">
+                <h3>Welcome to Finanza</h3>
+              </div>
+              <h1 class="bold-text">Your Financial Status Is Our Goal</h1>
+              <div class="explore">
+                <p>explore more</p>
+              </div>
+              <dialog id="explore-more-dialog">
+                <div class="dialog-image">
+                  <button id="dialog-click">
+                    <img
+                      src="./Icons/main-icons/close-dialog.svg"
+                      alt="close"
+                    />
+                  </button>
+                  <p>
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
+                    sit, sed stet lorem sit clita duo justo magna dolore erat
+                    amet
+                  </p>
+                </div>
+              </dialog>
+            </div>
+            <div class="slider-right">
+              <img src="./Icons/slider-icons/slider-right.svg" alt="click" />
+            </div>
+          </div>
+        </main>
       </div>
+      <div class="tab-content">
+        <img src="./Icons/tab-content-icons/tab-icon.svg" alt="client" />
+        <div class="tab">
+          <div class="full-info">
+            <div class="about">
+              <p>About Us</p>
+            </div>
+            <h1 class="client">We Help Our Clients To Grow Their Business</h1>
+            <p class="client-info">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
+          <div class="tab-buttons">
+            <div class="tab-button-selected">
+              <p>story</p>
+            </div>
+            <div class="tab-button-default">
+              <p>mission</p>
+            </div>
+            <div class="tab-button-default">
+              <p>vission</p>
+            </div>
+          </div>
+          <p class="tab-item-content"></p>
+        </div>
+      </div>
+      <div class="services-all">
+        <div class="service-content">
+          <div class="service-close">
+            <img
+              src="./Icons/tab-content-icons/service-close.svg"
+              alt="close"
+            />
+            <div class="close-text">
+              <h1>No Hidden Cost</h1>
+              <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+            </div>
+          </div>
+          <div class="team">
+            <img
+              src="./Icons/tab-content-icons/services-user.svg"
+              alt="users"
+            />
+            <div class="user-text">
+              <h1>Dedicated Team</h1>
+              <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+            </div>
+          </div>
+          <div class="time">
+            <img
+              src="./Icons/tab-content-icons/services-phone.svg"
+              alt="phone"
+            />
+            <div class="time-text">
+              <h1>24/7 Available</h1>
+              <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="statistic-content">
+        <div class="statistic">
+          <img src="./Icons/tab-content-icons/clients.svg" alt="client" />
+          <h1>1234</h1>
+          <p>Happy Clients</p>
+          <div class="statistic-border"></div>
+        </div>
+        <div class="statistic">
+          <img src="./Icons/tab-content-icons/success-icon.svg" alt="success" />
+          <h1>1234</h1>
+          <p>Projects Completed</p>
+          <div class="statistic-border"></div>
+        </div>
+        <div class="statistic">
+          <img
+            src="./Icons/tab-content-icons/dedicated-icon.svg"
+            alt="Dedicated"
+          />
+          <h1>1234</h1>
+          <p>Dedicated Staff</p>
+          <div class="statistic-border"></div>
+        </div>
+        <div class="statistic">
+          <img src="./Icons/tab-content-icons/awards-icon.svg" alt="awards" />
+          <h1>1234</h1>
+          <p>Dedicated Staff</p>
+          <div class="statistic-border"></div>
+        </div>
+      </div>
+      <div class="center-content">
+        <div class="shadow-content">
+          <div class="choosing">
+            <div class="choosing-shadow">
+              <p>Why Choosing Us!</p>
+            </div>
+            <h1>Few Reasons Why People Choosing Us!</h1>
+            <p class="choosing-text">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <div class="explore-more">
+              <p>explore more</p>
+            </div>
+          </div>
+          <div class="executions">
+            <div class="fast">
+              <svg
+                width="43"
+                height="35"
+                viewBox="0 0 43 35"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.6047 34.3126L0.629694 19.0587C-0.209898 18.1423 -0.209898 16.6564 0.629694 15.7399L3.67018 12.4211C4.50978 11.5046 5.87116 11.5046 6.71076 12.4211L16.125 22.6967L36.2892 0.687319C37.1288 -0.229106 38.4902 -0.229106 39.3298 0.687319L42.3703 4.00614C43.2099 4.92256 43.2099 6.40844 42.3703 7.32496L17.6453 34.3127C16.8056 35.2291 15.4443 35.2291 14.6047 34.3126Z"
+                  fill="#355EFC"
+                />
+              </svg>
+              <h1>Fast Executions</h1>
+              <p>
+                Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo
+                justo erat amet
+              </p>
+              <div class="read">
+                <p>Read More</p>
+                <svg
+                  width="17"
+                  height="18"
+                  viewBox="0 0 17 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 7.95312H12.7405L6.88844 2.10109L8.375 0.625L16.75 9L8.375 17.375L6.89891 15.8989L12.7405 10.0469H0V7.95312Z"
+                    fill="#355EFC"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="fast">
+              <svg
+                width="43"
+                height="35"
+                viewBox="0 0 43 35"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.6047 34.3126L0.629694 19.0587C-0.209898 18.1423 -0.209898 16.6564 0.629694 15.7399L3.67018 12.4211C4.50978 11.5046 5.87116 11.5046 6.71076 12.4211L16.125 22.6967L36.2892 0.687319C37.1288 -0.229106 38.4902 -0.229106 39.3298 0.687319L42.3703 4.00614C43.2099 4.92256 43.2099 6.40844 42.3703 7.32496L17.6453 34.3127C16.8056 35.2291 15.4443 35.2291 14.6047 34.3126Z"
+                  fill="#355EFC"
+                />
+              </svg>
+              <h1>Fast Executions</h1>
+              <p>
+                Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo
+                justo erat amet
+              </p>
+              <div class="read">
+                <p>Read More</p>
+                <svg
+                  width="17"
+                  height="18"
+                  viewBox="0 0 17 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 7.95312H12.7405L6.88844 2.10109L8.375 0.625L16.75 9L8.375 17.375L6.89891 15.8989L12.7405 10.0469H0V7.95312Z"
+                    fill="#355EFC"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="fast">
+              <svg
+                width="43"
+                height="35"
+                viewBox="0 0 43 35"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.6047 34.3126L0.629694 19.0587C-0.209898 18.1423 -0.209898 16.6564 0.629694 15.7399L3.67018 12.4211C4.50978 11.5046 5.87116 11.5046 6.71076 12.4211L16.125 22.6967L36.2892 0.687319C37.1288 -0.229106 38.4902 -0.229106 39.3298 0.687319L42.3703 4.00614C43.2099 4.92256 43.2099 6.40844 42.3703 7.32496L17.6453 34.3127C16.8056 35.2291 15.4443 35.2291 14.6047 34.3126Z"
+                  fill="#355EFC"
+                />
+              </svg>
+              <h1>Fast Executions</h1>
+              <p>
+                Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo
+                justo erat amet
+              </p>
+              <div class="read">
+                <p>Read More</p>
+                <svg
+                  width="17"
+                  height="18"
+                  viewBox="0 0 17 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 7.95312H12.7405L6.88844 2.10109L8.375 0.625L16.75 9L8.375 17.375L6.89891 15.8989L12.7405 10.0469H0V7.95312Z"
+                    fill="#355EFC"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="financial-content">
+          <div class="our-financial">
+            <p>Our Services</p>
+          </div>
+          <h1 class="business">Awesome Financial Services For Business</h1>
+          <div class="financial-planing">
+            <div class="planing-all">
+              <div class="planing">
+                <svg
+                  width="36"
+                  height="24"
+                  viewBox="0 0 36 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 24H36V20H0V24ZM0 14H36V10H0V14ZM0 0V4H36V0H0Z"
+                    fill="#011A41"
+                  />
+                </svg>
+                <h1>Financial Planing</h1>
+              </div>
+              <div class="planing">
+                <svg
+                  width="36"
+                  height="24"
+                  viewBox="0 0 36 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 24H36V20H0V24ZM0 14H36V10H0V14ZM0 0V4H36V0H0Z"
+                    fill="#011A41"
+                  />
+                </svg>
+                <h1>Financial Planing</h1>
+              </div>
+              <div class="planing">
+                <svg
+                  width="36"
+                  height="24"
+                  viewBox="0 0 36 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 24H36V20H0V24ZM0 14H36V10H0V14ZM0 0V4H36V0H0Z"
+                    fill="#011A41"
+                  />
+                </svg>
+                <h1>Financial Planing</h1>
+              </div>
+              <div class="planing">
+                <svg
+                  width="36"
+                  height="24"
+                  viewBox="0 0 36 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 24H36V20H0V24ZM0 14H36V10H0V14ZM0 0V4H36V0H0Z"
+                    fill="#011A41"
+                  />
+                </svg>
+                <h1>Financial Planing</h1>
+              </div>
+            </div>
+            <img
+              src="./Icons/Center-content/financial-image.svg"
+              alt="financial"
+            />
+            <div class="experience">
+              <h1>25 Years Of Experience In Financial Support</h1>
+              <p>
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+                sed stet
+              </p>
+              <div class="support-list">
+                <div class="offers">
+                  <img
+                    src="./Icons/Center-content/financial-experiences.svg"
+                    alt="success"
+                  />
+                  <p>Secured Loans</p>
+                </div>
+                <div class="offers">
+                  <img
+                    src="./Icons/Center-content/financial-experiences.svg"
+                    alt="success"
+                  />
+                  <p>Credit Facilities</p>
+                </div>
+                <div class="offers">
+                  <img
+                    src="./Icons/Center-content/financial-experiences.svg"
+                    alt="success"
+                  />
+                  <p>Cash Advanced</p>
+                </div>
+              </div>
+              <div class="read-more">
+                <p>Read More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="request">
+          <div class="get-in">
+            <p>Get In Touch</p>
+          </div>
+          <h1>Request A Call-Back</h1>
+          <div class="request-name">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="request-name">
+            <input
+              type="number"
+              id="number"
+              name="phone"
+              placeholder="Your Phone"
+              required
+            />
+            <input
+              type="text"
+              id="text"
+              name="subject"
+              placeholder="Your Subject"
+              required
+            />
+          </div>
+          <div class="request-message">
+            <input type="text" id="message" placeholder="message">
+            <input type="submit" id="submit" value="Submit Now">
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-box">
+          <div class="footer-office">
+            <h1>Our Office</h1>
+            <div class="footer-address">
+              <img src="./Icons/footer-icons/location.svg" alt="location" />
+              <p>123 Street, New York, USA</p>
+            </div>
+            <div class="footer-phone">
+              <img src="./Icons/footer-icons/footer-phone.svg" alt="phone" />
+              <p>+012 345 67890</p>
+            </div>
+            <div class="footer-email">
+              <img src="./Icons/footer-icons/footer-email.svg" alt="email" />
+              <p>info@example.com</p>
+            </div>
+            <div class="footer-media">
+              <a href="https://twitter.com" target="_blank"
+                ><img
+                  src="./Icons/footer-icons/footer-twitter.svg"
+                  alt="twitter logo"
+              /></a>
+              <a href="https://www.youtube.com" target="_blank"
+                ><img src="./Icons/footer-icons/youtube.svg" alt="youtube"
+              /></a>
+              <a href="https://www.facebook.com" target="_blank"
+                ><img
+                  src="./Icons/footer-icons/footer-facebook.svg"
+                  alt="facebook"
+              /></a>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><img src="./Icons/footer-icons/linkedin.svg" alt="linkedin"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-services">
+            <h1>services</h1>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Financial Planning</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Cash Investment</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Financial Consultancy</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>business Loans</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>business Analysis</p>
+            </div>
+          </div>
+          <div class="footer-services">
+            <h1>Quick Links</h1>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>About Us</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Contact Us</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Our Services</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Terms & Condition</p>
+            </div>
+            <div class="footer-catalogue">
+              <img src="./Icons/footer-icons/footer-arrow.svg" alt="arrow" />
+              <p>Support</p>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h1>newsletter</h1>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Your Mail"
+              class="newsletter-mail"
+            />
+            <div class="footer-sign">
+              <p>Sign Up</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <h1>© Your Site Name, All Right Reserved.</h1>
+          <h1>Designed By HTML Codex Distributed By ThemeWagon</h1>
+        </div>
+      </footer>
     </div>
+    <script src="finanza-JS/finanza.js"></script>
   </body>
 </html>

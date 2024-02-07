@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-menu li:hover {
+  cursor: pointer;
+  color: rgb(188, 143, 230);
+}
+.welcome-text:hover {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.slider-left:hover {
+  background-color: #cad2fc;
+  border-radius: 0px 50px 50px 0px;
+  cursor: pointer;
+}
+.slider-right:hover {
+  border-radius: 50px 0px 0px 50px;
+  background-color: #cad2fc;
+  cursor: pointer;
+}
+.about:hover {
+  cursor: pointer;
+  border-radius: 11px;
+  box-shadow: 0px 0px 4px 0px #0000005C;
+}
+.choosing-shadow:hover {
+  cursor: pointer;
+  border-radius: 11px;
+  box-shadow: 0px 0px 4px 0px #0000005C;
+}
+.fast:hover {
+  background-color: #355EFC;
+  color: #FFFFFF;
+}
+.fast:hover h1 {
+  color: #FFFFFF;
+}
+.fast:hover p {
+  color: #FFFFFF;
+}
+.fast:hover path {
+  fill: #F5F5F5;
+}
+.our-financial:hover {
+  border-radius: 11px;
+  box-shadow: 0px 0px 4px 0px #0000005C;
+  cursor: pointer;
+}
+.planing:hover {
+  background: #355EFC;
+  cursor: pointer;
+}
+.planing:hover path {
+  fill: #FFFFFF;
+}
+.planing:hover h1 {
+  color: #FFFFFF;
+}
+.get-in:hover {
+  border-radius: 11px;
+  border: 1px solid #CAD2FC;
+  cursor: pointer;
+}
